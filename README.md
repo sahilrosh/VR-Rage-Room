@@ -65,10 +65,11 @@ RageRoom/
 
 Folders such as `Library/`, `Temp/`, `Logs/`, and `UserSettings/` are generated locally by Unity and are not tracked in git.
 
-## Author
-
-**Sahil Roshan**
 
 ## License
 
 Add a license here if you plan to open-source the project.
+
+## Author
+
+**Sahil Roshan**
