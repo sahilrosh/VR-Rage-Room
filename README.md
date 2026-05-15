@@ -4,8 +4,6 @@ A VR destruction sandbox built with Unity. Grab objects, smash destructibles, an
 
 ![Gameplay demo](docs/demo.gif)
 
-*Converted from `Assets/Screen Recording.mp4`.*
-
 ## Features
 
 - **Destructible objects** — collision impulse spawns debris, particles, and 3D break sounds
