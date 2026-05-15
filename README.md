@@ -29,14 +29,45 @@ A VR destruction sandbox built with Unity. Grab objects and throw them at destru
 
 Unity will regenerate `Library/` locally; it is not committed.
 
-## Project layout
+## Project structure
 
-| Path | Description |
-|------|-------------|
-| `Assets/Scenes/` | Main scene |
-| `Assets/Scripts/` | `Destructible`, `DebrisPiece`, `HapticFeedback` |
-| `Assets/Basics/` | Prefabs, materials, future-scope scripts |
-| `docs/demo.gif` | README gameplay preview |
+```
+RageRoom/
+├── Assets/
+│   ├── Scenes/
+│   │   └── SampleScene.unity          # Main playable scene
+│   ├── Scripts/
+│   │   ├── Destructible.cs            # Break-on-impact logic (force threshold)
+│   │   ├── DebrisPiece.cs             # Debris fade-out
+│   │   └── HapticFeedback.cs          # Controller haptics on collision
+│   ├── Basics/
+│   │   ├── Pre fab/
+│   │   │   └── Debris.prefab          # Debris spawned when objects break
+│   │   ├── Future Scope/
+│   │   │   ├── ScoreManager.cs        # Destruction score UI
+│   │   │   └── ObjectRespawner.cs     # Respawn helpers (WIP)
+│   │   └── materials PloyHeaven/      # PBR floor/surface textures
+│   ├── Oculus/                        # Meta Quest project config
+│   ├── Resources/                     # Oculus / Meta XR runtime settings
+│   ├── XR/                            # OpenXR loaders and settings
+│   ├── XRI/                           # XR Interaction Toolkit settings
+│   └── Samples/
+│       └── XR Interaction Toolkit/    # XRI starter assets & demo scene
+├── Packages/
+│   ├── manifest.json                  # Unity package dependencies
+│   └── packages-lock.json
+├── ProjectSettings/                   # Unity editor & build settings
+├── docs/
+│   └── demo.gif                       # README gameplay preview
+├── .gitignore
+└── README.md
+```
+
+Folders such as `Library/`, `Temp/`, `Logs/`, and `UserSettings/` are generated locally by Unity and are not tracked in git.
+
+## Author
+
+**Sahil Roshan**
 
 ## License
 
