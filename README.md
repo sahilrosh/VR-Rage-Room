@@ -6,7 +6,7 @@ A VR destruction sandbox built with Unity. Grab objects and throw them at destru
 
 ## Features
 
-- **Destructible objects** — only break when hit with enough force (a hard throw); a soft throw or gentle bump does nothing. Above the threshold, debris, particles, and 3D break sounds play
+- **Destructible objects** — only break when hit with enough force (a hard throw); a soft throw or gentle bump does nothing. Above the threshold, debris and particles.
 - **Debris fade-out** — pieces dissolve after a short delay
 - **Haptic feedback** — controller rumble scales with impact force while grabbing
 - **Score tracking** — points awarded per object destroyed
