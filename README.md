@@ -1,7 +1,7 @@
 # RageRoom
 
 A VR destruction sandbox built with Unity. Grab objects and throw them at destructibles—objects only break on a hard impact, not a soft toss. Debris scatters with haptic feedback on Meta Quest.
-
+## Demo
 ![Gameplay demo](docs/demo.gif)
 
 ## Features
