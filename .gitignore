@@ -81,6 +81,8 @@ InitTestScene*.unity*
 *.swp
 *~
 
-# Large local media (exceeds GitHub 100MB file limit)
+# Screen recordings (source for docs/demo.gif; keep out of repo)
+Assets/Screen Recording.mp4
+Assets/Screen Recording.mp4.meta
 Assets/Screen Recording .mov
 Assets/Screen Recording .mov.meta
